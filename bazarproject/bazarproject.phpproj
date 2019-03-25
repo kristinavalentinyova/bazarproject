@@ -1,0 +1,46 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>bazarproject</Name>
+    <ProjectGuid>{5307c4dc-d5c2-4928-b885-c338e9b2cefd}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.1</RuntimeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="connect.php" />
+    <Compile Include="pages\oblecenieaobuv.php" />
+    <Compile Include="pages\kontakt.php" />
+    <Compile Include="pages\footer.php" />
+    <Compile Include="index.php" />
+    <Compile Include="pages\home.php" />
+    <Compile Include="pages\header.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\adidas.png" />
+    <Content Include="images\bag.png" />
+    <Content Include="images\belt.png" />
+    <Content Include="images\car.png" />
+    <Content Include="images\dress.png" />
+    <Content Include="images\elektro.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\lupa.png" />
+    <Content Include="images\stolicka.png" />
+    <Content Include="images\TH.png" />
+    <Content Include="images\tricko.png" />
+    <Content Include="images\tshirt.png" />
+  </ItemGroup>
+</Project>

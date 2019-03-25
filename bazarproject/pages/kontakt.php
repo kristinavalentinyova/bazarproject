@@ -10,7 +10,7 @@
   <p class="lead">TEL.: +421 017 000 111</p>
 <p class="lead">E-MAIL: kontakt@bazarkv.sk</p>
 <p class="lead">IČO: 51 123 151</p>
-    <p class="lead">DIČ: 2220123111 Ahoj </p>
+    <p class="lead">DIČ: 2220123111</p>
   </div>
 </div>
         </div>

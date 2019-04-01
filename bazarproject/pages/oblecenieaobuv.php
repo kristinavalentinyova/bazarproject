@@ -27,7 +27,7 @@
 	// Set session variables
 	$_SESSION["datumDnes"] = date("l, d.m.Y");
 
-	//$conn->query("SET CHARACTER SET utf8");
+	$conn->query("SET CHARACTER SET utf8");
 	//alebo v xampp/mysql/bin/my.ini   doplnit:
 	//[mysqld]
 	//character-set-server=utf8

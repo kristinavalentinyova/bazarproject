@@ -51,7 +51,7 @@
             </div>
            <div class="col-md-8">
           <div class="card-body">
-          <h5 class="card-title"><a class="nav-link active" href="../index.php?link=nabytok.php"></a><?php echo $row["Meno"]; ?></h5>
+          <h5 class="card-title"><a class="nav-link active" href="../index.php?link=<?php echo $row["Link"];?>.php"><?php echo $row["Meno"]; ?></a></h5>
           <p class="card-text"></p>
           </div>
          </div>

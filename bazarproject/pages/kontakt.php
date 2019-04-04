@@ -1,11 +1,11 @@
 <div class="row">
   <div class="col-md-3">
-        <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">+novĂ˝ inzerĂˇt</a>
+        <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">+nový inzerát</a>
         </div> 
          <div class="col-md-6">
             <button type="button" class="btn btn-light"><a class="nav-link active" href="../index.php?link=home.php">Home</a></button>
             <button type="button" class="btn btn-light"><a class="nav-link active" href="../index.php?link=kontakt.php">Kontakt</a></button>
-            <button type="button" class="btn btn-light"><a class="nav-link" href="#">O nĂˇs</a></button>
+            <button type="button" class="btn btn-light"><a class="nav-link" href="#">O nás</a></button>
             </div>
         <div class="col-md-3">
           </div>
